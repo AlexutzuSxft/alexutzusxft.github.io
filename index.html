@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #1a1a2e url('images/noise.png') repeat;
+            color: #DAD2FF;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+        }
+        header {
+            margin-bottom: 50px;
+        }
+        header h1 {
+            font-size: 3em;
+            color: #B2A5FF;
+            font-weight: 600;
+        }
+        header p {
+            font-size: 1.5em;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .socials {
+            margin-top: 60px;
+        }
+        .socials h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #DAD2FF;
+            font-weight: 400;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .icons img {
+            width: 60px;
+            transition: transform 0.3s;
+        }
+        .icons img:hover {
+            transform: scale(1.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>
+            I am a young tech enthusiast with a deep passion for programming, robotics, and cybersecurity. 
+            I enjoy working on software and hardware projects, pushing the limits of technology, 
+            and continuously learning new things.
+        </p>
+    </header>
+    <section class="socials">
+        <h2>Connect with Me</h2>
+        <div class="icons">
+            <a href="#" target="_blank"><img src="images/discord.svg" alt="Discord"></a>
+            <a href="#" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="images/steam.svg" alt="Steam"></a>
+            <a href="#" target="_blank"><img src="images/tiktok.svg" alt="TikTok"></a>
+        </div>
+    </section>
+</body>
+</html>
